@@ -1,3 +1,7 @@
+//greedy approach where we take minimum first then pop and put the next one right into the min heap;
+//whenever we find a top element with index (i,j) , we check for next element in the same array and push it into heap
+//and do it until size == k
+
 class Solution {
     typedef pair<int,pair<int,int>> pi;
 public:
